@@ -8,4 +8,6 @@ const genericHandler = (req, res, next) => {
     });
 };
 
+router.post('/people', genericHandler);
+
 module.exports = router;
